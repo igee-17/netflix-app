@@ -1,0 +1,29 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  height: 50vh;
+  justify-content: space-between;
+}
+
+.links td {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 2rem;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.section5_header {
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .section5_header h2 {
+    /* font-size: 5rem; */
+  }
+  .links td {
+    font-size: 11px;
+  }
+}
